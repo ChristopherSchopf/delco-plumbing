@@ -425,6 +425,10 @@ q {
 .footer-copy-box-two {
     margin-left: auto;
 }
+.top-footer a:hover,
+.footer-copyright-section a:hover {
+  text-decoration: underline;
+}
 
 /* Tier Two Header */
 
