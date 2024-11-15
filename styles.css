@@ -31,6 +31,10 @@ html {
     color: #000;
   }
 
+  button:hover {
+    cursor: pointer;
+  }
+
   .container {
     max-width: 1180px;
     margin: 0 auto;
@@ -143,10 +147,13 @@ html {
   border: none;
   border-radius: 12px;
   font-size: 1.5rem;
-  background-color: #51ADE5;
+  background-color: #184A8F;
   color: #fff;
   font-weight: 500;
   margin-bottom: 1rem;
+}
+.above-fold-button:hover {
+  background-color: #51ADE5;
 }
 .above-fold-container img {
   border-radius: 12px;
@@ -591,6 +598,9 @@ q {
   color: #fff;
   padding: .5rem 1rem;
   font-size: 1.25rem;
+}
+.service-boxes button:hover {
+  background-color: #51ADE5;
 }
 /* Contact Page */
 .contact-form-container {
