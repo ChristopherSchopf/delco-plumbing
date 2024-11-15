@@ -46,6 +46,9 @@ html {
   justify-content: space-between;
   margin-bottom: 6rem;
 }
+.top-nav a:hover {
+  opacity: 70%;
+}
 .logo ul {
   display: flex;
 }
